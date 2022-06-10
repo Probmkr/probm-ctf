@@ -4,7 +4,7 @@
 $title = "";
 $home = false;
 $customHead = "";
-$documentRoot = __DIR__ . "/../..";
+$documentRoot = __DIR__ . "/..";
 include_once $documentRoot . "/static/php/env/var.php";
 ini_set('display_errors', 1);
 ?>
@@ -12,7 +12,6 @@ ini_set('display_errors', 1);
 <?php include_once $phpStaticDir . "/components/header.php"; ?>
 <div class="main-container" id="mainContainer">
   <div class="main-content">
-
 
 
 

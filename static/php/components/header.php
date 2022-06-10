@@ -4,7 +4,7 @@
       <div class="header-title no-a-style"><a href="/"><?php echo SITE_TITLE; ?></a></div>
     </div>
     <div class="header-middle">
-      <div class="header-title-middle"><?php echo HACK_TITLE; ?></div>
+      <div class="header-title-middle"><?php echo $title; ?></div>
     </div>
     <div class="header-right"></div>
   </div>
